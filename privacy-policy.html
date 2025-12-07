@@ -35,7 +35,7 @@
                         Micros Apps Privacy Policy
                     </h1>
                     <p class="mt-4 text-lg text-gray-300">
-                        <strong>Effective Date:</strong> 09/19/2025
+                        <strong>Last Updated:</strong> December 07, 2024
                     </p>
                 </div>
                 <div class="mt-12 prose prose-invert text-gray-300 mx-auto">
@@ -53,26 +53,53 @@
                     <h2 class="mt-8 text-white">1. Information We Collect</h2>
                     
                     <h3 class="mt-6 text-lg font-semibold text-yellow-400">Location Data (GPS/Wi-Fi–based)</h3>
-                    <p>The app accesses approximate or precise location only to:</p>
+                    <p>The app requests location permission ("When In Use") for the following specific purposes:</p>
                     <ul class="list-disc pl-5">
-                        <li>set the race start point on the map</li>
-                        <li>connect and communicate with Micros devices via Wi-Fi</li>
+                        <li><strong>WiFi Device Detection:</strong> To detect and verify connection to your Micros racing device via WiFi network (network names starting with "micros")</li>
+                        <li><strong>Custom Track Creation:</strong> To enable you to create custom race tracks by marking start/finish points on a map</li>
+                        <li><strong>Race Start Point:</strong> To set the race start point location on the map for track configuration</li>
                     </ul>
-                    <p>
-                        <strong>Location data is not stored, not uploaded, and not shared with any third party.</strong>
+                    <p class="mt-4">
+                        <strong>Important:</strong> Your location data is:
+                    </p>
+                    <ul class="list-disc pl-5">
+                        <li>Only used locally on your device</li>
+                        <li>Only accessed when you are actively using the app</li>
+                        <li><strong>NOT transmitted to our servers or any external services</strong></li>
+                        <li><strong>NOT shared with any third parties</strong></li>
+                        <li><strong>NOT used for tracking, advertising, or analytics</strong></li>
+                        <li><strong>NOT tracked in the background when the app is closed</strong></li>
+                    </ul>
+
+                    <h3 class="mt-6 text-lg font-semibold text-yellow-400">Local Network Access</h3>
+                    <p>The app requires local network access to communicate with your Micros racing device:</p>
+                    <ul class="list-disc pl-5">
+                        <li><strong>Device Communication:</strong> Connect to Micros device at IP address 192.168.4.1 over local WiFi</li>
+                        <li><strong>Data Synchronization:</strong> Retrieve race session data, lap times, and speed metrics from the device</li>
+                        <li><strong>Device Management:</strong> Send track configurations and settings to the device</li>
+                    </ul>
+                    <p class="mt-4">
+                        <strong>This communication occurs only within your local WiFi network and does not leave your device or network.</strong>
                     </p>
 
                     <h3 class="mt-6 text-lg font-semibold text-yellow-400">Device Data</h3>
                     <p>Technical data exchanged between the app and Micros devices, such as:</p>
                     <ul class="list-disc pl-5">
-                        <li>device settings</li>
-                        <li>status information</li>
-                        <li>race metrics</li>
+                        <li>Device name, serial number, model, and firmware version</li>
+                        <li>Battery status and GPS signal strength</li>
+                        <li>Race metrics (lap times, speed, distance, elevation)</li>
+                        <li>Track configurations and settings</li>
                     </ul>
-                    <p>This data is used solely for device operation.</p>
+                    <p>This data is used solely for device operation and displaying race statistics.</p>
 
                     <h3 class="mt-6 text-lg font-semibold text-yellow-400">Locally Stored App Data</h3>
-                    <p>The app may store race history or session information only on your device.</p>
+                    <p>The app stores the following information locally on your device:</p>
+                    <ul class="list-disc pl-5">
+                        <li>Race session history (drag races and lap times)</li>
+                        <li>Custom track configurations</li>
+                        <li>App settings and preferences</li>
+                        <li>Device connection information</li>
+                    </ul>
                     
                     <p class="mt-4">
                         <strong>We do not collect personal data such as names, emails, addresses, phone numbers, or financial information.</strong>
@@ -81,21 +108,25 @@
                     <h2 class="mt-8 text-white">2. How We Use Your Data</h2>
                     <p>Collected data is used exclusively for:</p>
                     <ul class="list-disc pl-5">
-                        <li>connecting the app with Micros hardware</li>
-                        <li>setting race start points</li>
-                        <li>displaying and managing race results locally</li>
-                        <li>ensuring proper device functionality</li>
+                        <li>Detecting and connecting to your Micros device via WiFi</li>
+                        <li>Creating and managing custom race tracks</li>
+                        <li>Setting race start points on the map</li>
+                        <li>Displaying and managing race results locally on your device</li>
+                        <li>Ensuring proper device functionality and synchronization</li>
+                        <li>Improving your user experience with the app</li>
                     </ul>
                     <p class="mt-4">
-                        <strong>The data is never used for advertising, analytics, marketing, or profiling.</strong>
+                        <strong>The data is never used for advertising, analytics, marketing, profiling, or any other purposes.</strong>
                     </p>
 
                     <h2 class="mt-8 text-white">3. Data Storage and Security</h2>
                     <ul class="list-disc pl-5">
-                        <li>All data stays only on your device.</li>
-                        <li>No data is sent to external servers.</li>
-                        <li>No cloud storage is used.</li>
-                        <li>We use standard device security features to protect your data.</li>
+                        <li><strong>Local Storage Only:</strong> All data stays exclusively on your device using secure database storage</li>
+                        <li><strong>No External Transmission:</strong> No data is sent to external servers or cloud services</li>
+                        <li><strong>No Cloud Backup:</strong> We do not use cloud storage or backup services</li>
+                        <li><strong>Secure Communication:</strong> Device communication uses local WiFi connection only (192.168.4.1)</li>
+                        <li><strong>Data Protection:</strong> We use standard iOS security features to protect your data</li>
+                        <li><strong>Automatic Deletion:</strong> All app data is automatically deleted when you uninstall the app</li>
                     </ul>
 
                     <h2 class="mt-8 text-white">4. No Tracking and No Third-Party Sharing</h2>
@@ -104,39 +135,108 @@
                     <p>The application does not track users across apps, websites, or services.</p>
                     <p>We do not:</p>
                     <ul class="list-disc pl-5">
-                        <li>use advertising identifiers</li>
-                        <li>link user data with third-party data</li>
-                        <li>use data for ads, marketing, or behavioral profiling</li>
-                        <li>use third-party analytics SDKs</li>
+                        <li>Use advertising identifiers or tracking cookies</li>
+                        <li>Link user data with third-party data for tracking</li>
+                        <li>Use data for targeted ads, marketing, or behavioral profiling</li>
+                        <li>Use third-party analytics SDKs or tracking tools</li>
+                        <li>Monitor user behavior outside the app</li>
+                        <li>Collect device identifiers for tracking purposes</li>
                     </ul>
 
                     <h3 class="mt-6 text-lg font-semibold text-yellow-400">No Third-Party Sharing</h3>
-                    <p>We do not share, sell, or upload any data to third parties.</p>
-                    <p>Data is shared only with:</p>
+                    <p>We do not share, sell, rent, or upload any of your data to third parties.</p>
+                    <p>Data communication occurs only with:</p>
                     <ul class="list-disc pl-5">
-                        <li>Micros device hardware (direct device connection), or</li>
-                        <li>if required by law (rare and only with legal authority)</li>
+                        <li><strong>Your Micros device:</strong> Direct local WiFi connection for device operation</li>
+                        <li><strong>Map Services:</strong> When creating custom tracks, map providers (Google Maps/Apple Maps) may access location according to their own privacy policies</li>
                     </ul>
-
-                    <h2 class="mt-8 text-white">5. User Control and Rights</h2>
-                    <p>Users may:</p>
-                    <ul class="list-disc pl-5">
-                        <li>delete local race history at any time</li>
-                        <li>stop using the app at any time</li>
-                        <li>disable location access (but some features may be unavailable)</li>
-                    </ul>
-
-                    <h2 class="mt-8 text-white">6. Changes to This Policy</h2>
-                    <p>
-                        If this policy is updated, we will notify users through the app or our official channels. 
-                        The app will continue to operate without server-based data collection unless users are 
-                        explicitly informed otherwise.
+                    <p class="mt-4">
+                        Data may be disclosed only if required by law with proper legal authority.
                     </p>
 
-                    <h2 class="mt-8 text-white">7. Contact</h2>
-                    <p>If you have questions, contact us at:</p>
-                    <p><strong>Email:</strong> iqbal.firzal@gmail.com</p>
-                    <p><strong>Website:</strong> https://www.instagram.com/micros.indonesia</p>
+                    <h2 class="mt-8 text-white">5. Third-Party Services</h2>
+                    
+                    <h3 class="mt-6 text-lg font-semibold text-yellow-400">Map Services</h3>
+                    <p>The app uses map services for the custom track creation feature:</p>
+                    <ul class="list-disc pl-5">
+                        <li>Map providers may collect location data according to their own privacy policies</li>
+                        <li>This occurs only when you actively use the custom track creation feature</li>
+                        <li>Please refer to Google Maps or Apple Maps privacy policy for their data practices</li>
+                    </ul>
+
+                    <h3 class="mt-6 text-lg font-semibold text-yellow-400">No Other Third-Party Services</h3>
+                    <p>We do NOT use:</p>
+                    <ul class="list-disc pl-5">
+                        <li>Analytics services (Google Analytics, Firebase, etc.)</li>
+                        <li>Advertising networks or SDKs</li>
+                        <li>Crash reporting services</li>
+                        <li>Social media integrations</li>
+                        <li>Cloud storage services</li>
+                    </ul>
+
+                    <h2 class="mt-8 text-white">6. Your Rights and Control</h2>
+                    <p>You have complete control over your data:</p>
+                    <ul class="list-disc pl-5">
+                        <li><strong>Location Permission:</strong> You can revoke location access at any time through iOS Settings → Micros App → Location</li>
+                        <li><strong>Local Network:</strong> You can disable local network access through iOS Settings (some features may be unavailable)</li>
+                        <li><strong>Delete Race History:</strong> Delete local race session data at any time within the app</li>
+                        <li><strong>Uninstall App:</strong> All data is automatically and permanently deleted when you uninstall the app</li>
+                        <li><strong>No Account Required:</strong> The app does not require account creation or personal identification</li>
+                        <li><strong>Stop Using Anytime:</strong> You can stop using the app at any time without any data retention</li>
+                    </ul>
+
+                    <h2 class="mt-8 text-white">7. iOS Specific Information</h2>
+                    
+                    <h3 class="mt-6 text-lg font-semibold text-yellow-400">Permissions Required:</h3>
+                    <ul class="list-disc pl-5">
+                        <li><strong>Location (When In Use):</strong> Required to detect Micros WiFi device and create custom tracks. Location tracking does NOT continue in the background when the app is closed.</li>
+                        <li><strong>Local Network:</strong> Required to communicate with Micros device over WiFi at 192.168.4.1</li>
+                    </ul>
+
+                    <h3 class="mt-6 text-lg font-semibold text-yellow-400">When Location is Accessed:</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Only when you are actively using the app</li>
+                        <li>When you tap "Connect" to pair with Micros device</li>
+                        <li>When you create or edit custom tracks on the map</li>
+                        <li>Never in the background or when the app is closed</li>
+                    </ul>
+
+                    <h2 class="mt-8 text-white">8. Children's Privacy</h2>
+                    <p>
+                        This app does not knowingly collect information from children under 13 years of age. 
+                        The app is designed for use by racing enthusiasts and requires a physical Micros racing device to function.
+                    </p>
+
+                    <h2 class="mt-8 text-white">9. Data Retention</h2>
+                    <p>
+                        All data is stored locally on your device for as long as you have the app installed. 
+                        When you uninstall the app, all data is automatically and permanently deleted from your device. 
+                        We do not retain any copies of your data on our servers.
+                    </p>
+
+                    <h2 class="mt-8 text-white">10. Changes to This Policy</h2>
+                    <p>
+                        If this privacy policy is updated, we will notify users through the app or our official channels 
+                        with an updated "Last Updated" date. The app will continue to operate without server-based data 
+                        collection unless users are explicitly informed and consent to any changes.
+                    </p>
+
+                    <h2 class="mt-8 text-white">11. Contact</h2>
+                    <p>If you have questions, concerns, or requests regarding this privacy policy or our data practices, please contact us at:</p>
+                    <p class="mt-4"><strong>Email:</strong> iqbal.firzal@gmail.com</p>
+                    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/micros.indonesia" class="text-yellow-400 hover:text-yellow-300">@micros.indonesia</a></p>
+
+                    <div class="mt-12 p-6 bg-gray-800 rounded-lg border border-yellow-400">
+                        <h3 class="text-xl font-bold text-yellow-400 mb-4">Summary - Your Privacy Matters</h3>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li>Location used only for WiFi detection and custom tracks - never tracked in background</li>
+                            <li>Local network access only for device communication at 192.168.4.1</li>
+                            <li>All data stored locally on your device - never sent to servers</li>
+                            <li>No tracking, no analytics, no advertising, no third-party sharing</li>
+                            <li>You have full control - delete data anytime or revoke permissions</li>
+                            <li>No account required - complete privacy</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -152,7 +252,7 @@
                 </div>
                 <div class="mt-8">
                     <p class="text-gray-300 text-sm text-center">
-                        &copy; 2025 Micros. All rights reserved. | <a href="#" class="text-yellow-400 hover:text-yellow-300">Back to Top</a>
+                        &copy; 2024 Micros. All rights reserved. | <a href="#" class="text-yellow-400 hover:text-yellow-300">Back to Top</a>
                     </p>
                 </div>
             </div>
